@@ -8,30 +8,31 @@ import LogoName from './assets/codeconnect.svg';
 export default function Sidebar () {    //definimos que deste arquivo sera exportada a função Sidebar
     return (                                //componentes que sao formados por uma função
         <>
-            <aside>
-                <img src={Logo} alt='Logo do CodeConnect' />
-                <nav>
-                    <ul>
-                        <li>
-                            <a href='#'>Publicar</a>
-                        </li>
-                        <li>
-                            <a href='#'>
-                            <img src={Perfil} alt=''/> 
-                            <span>Perfil</span>
-                        </a>
+        <aside>
+            <img src={Logo} alt='Logo do CodeConnect' />
+            <nav>
+                <ul>
+                    <li>
+                        <a href='#'>Publicar</a>
                     </li>
-                        <li>
+                    <li>
                         <a href='#'>
-                            <img src={Feed} alt=''/> 
-                            <span>Feed</span>
-                        </a>
-                    <li/>
+                        <img src={Perfil} alt=''/> 
+                        <span>Perfil</span>
+                    </a>
+                </li>
+                    <li>
+                    <a href='#'>
+                        <img src={Feed} alt=''/> 
+                        <span>Feed</span>
+                    </a>
+                <li/>
                     <li>
                         <a href='#'>
                             <img src={Info} alt=''/>
                             <span>Info</span>
                         </a>
+                    <li/>
                         <li>
                             <a href='#'/>
                             <img src={Logout} alt=''/>
