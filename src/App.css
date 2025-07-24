@@ -1,0 +1,10 @@
+.container {            /*css relacionado a main page*/
+    width: 62vw;        /*container contendo sidebar; barra de pesquisa e filtros*/
+    margin: 3.5em auto;
+    display: flex;
+    gap: 16px;
+}
+
+.container div {
+    flex-grow: 2;
+}
