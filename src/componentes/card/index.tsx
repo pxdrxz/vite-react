@@ -3,7 +3,7 @@ import Chat from './assets/chat.svg';
 import Code from './assets/code.svg';
 import Share from './assets/share.svg';
 import Icone from './assets/userphoto.png';
-// import 'styles.css';
+import './styles.css'
 
 export default function Card() { 
     return (
